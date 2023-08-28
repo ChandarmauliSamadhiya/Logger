@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using System;
+namespace ConsoleApp2
+{
 
 static class Logger
 {
@@ -29,4 +30,5 @@ class Program
         Logger.LogMessage("Application finished.");
         Console.ReadLine();
     }
+  }
 }
