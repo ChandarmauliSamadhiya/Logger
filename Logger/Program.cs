@@ -24,7 +24,7 @@ class Program
         // Simulating some application logic
         for (int i = 1; i <= 5; i++)
         {
-            Logger.LogMessage($"Performing task {i}");
+            Logger.LogMessage("Performing task" + i);
         }
 
         Logger.LogMessage("Application finished.");
